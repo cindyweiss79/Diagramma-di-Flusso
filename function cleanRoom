@@ -1,0 +1,30 @@
+function cleanRoom() {
+  const isDirty = prompt("La stanza è sporca? (sì/no)");
+  if (isDirty.toLowerCase() === "sì") {
+    alert("Pulizia in corso...");
+  } else {
+    alert("La stanza è già pulita.");
+  }
+}
+
+function checkMiniBar() {
+  const isEmpty = prompt("Il minibar è vuoto? (sì/no)");
+  if (isEmpty.toLowerCase() === "sì") {
+    alert("Rifornimento del minibar in corso...");
+  } else {
+    alert("Il minibar è a posto.");
+  }
+}
+
+let rooms = true;
+
+while (rooms) {
+  cleanRoom();
+  checkMiniBar();
+
+  const another = prompt("Ci sono altre camere da controllare? (sì/no)");
+  if (another.toLowerCase() !== "sì") {
+    rooms = false;
+    alert("Fine del controllo stanze.");
+  }
+}
