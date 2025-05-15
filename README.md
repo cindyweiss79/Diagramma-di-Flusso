@@ -1,6 +1,4 @@
-# Diagramma-di-Flusso cleanROOMS
-
-# Controllo Camere e Minibar – Script JavaScript
+# Diagramma-di-Flusso cleanROOMS -  Script JavaScript
 
 Questo script interattivo in JavaScript simula il controllo delle camere di un hotel e dei rispettivi minibar, chiedendo all'utente lo stato della stanza e del minibar, e notificando le azioni da intraprendere.
 
